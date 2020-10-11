@@ -6,17 +6,7 @@
 
 :heavy_check_mark: running docker-compose.yml
 
-  running docker-compose
-
   *docker-compose up -d*
-
-  looking log
-
-  *docker-compose log*
-
-  stoping docker-compose
-
-  *docker-compose down*
 
 :heavy_check_mark: Project running at:
 
@@ -93,3 +83,13 @@
   /user/*_id*
 
   * This route delete user by *_id*.
+
+### Looking Log and Stopping Containers
+
+:heavy_check_mark: looking log
+
+  *docker-compose log*
+
+:heavy_check_mark: stopping containers
+
+  *docker-compose down*
