@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-mongodb-mongoose",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "author": "Daniel Fernandez",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
