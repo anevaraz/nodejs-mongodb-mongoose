@@ -5,7 +5,7 @@ const UserSchema = new Schema(
 	{
     name: String,
     taxvat: String,
-		brithday: String,
+    brithday: String,
 		gender: String,
 		type: String,
 		work: [{

@@ -49,7 +49,7 @@ module.exports = {
     let message
     const { _id } = request.params
     try {
-      usersModel.collection.deleteOne({ _id: mongoose.Types.ObjectId(_id) })
+      await usersModel.collection.deleteOne({ _id: mongoose.Types.ObjectId(_id) })
       status = 200
       message = 'User deleted successfully.'
     } catch (e) {
