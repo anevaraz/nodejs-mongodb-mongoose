@@ -4,19 +4,19 @@
 
       https://github.com/anevaraz/nodejs-mongodb-mongoose.git
 
-:heavy_check_mark: running de docker-compose.yml
+:heavy_check_mark: running docker-compose.yml
 
   running docker-compose
 
-  >> docker-compose up -d
+  *docker-compose up -d*
 
   looking log
 
-  >> docker-compose log
+  *docker-compose log*
 
   stoping docker-compose
 
-  >> docker-compose down
+  *docker-compose down*
 
 :heavy_check_mark: Project running at:
 
